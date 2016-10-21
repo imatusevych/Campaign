@@ -23,21 +23,6 @@ public class CampaingTargetServiceTest {
         target.read("src/test/resources/input2.txt");
     }
 
-    /*
-    @Test
-    public void read_all() throws Exception {
-        Date startTime = new Date();
-        Set<String> expectedCampaignsForTarget_2 = new HashSet<String>(Arrays.asList("campaign_a"));
-        target.read("src/test/resources/campaign.txt");
-        //target.find(Arrays.asList(24489,7190,20256,5141));
-
-        String result = target.find(Arrays.asList(3727,31097,22772,31097,31097,7176,5272));
-        System.out.println(new Date().getTime()-startTime.getTime());
-    }
-    */
-
-
-
     @Test
     public void test_find_algorithm() throws Exception {
         String targets_1 = "3 4 5 10 2 200";
